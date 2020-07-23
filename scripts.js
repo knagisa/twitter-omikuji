@@ -9,7 +9,7 @@ let isRunning = true;
 
 const update = function() {
   omikujiId = setTimeout(function() {
-    console.log(omikuji[i]);
+    // console.log(omikuji[i]);
     display.innerText = omikuji[i];
     i = i + 1 < omikuji.length ? i + 1 : 0;
     update();
